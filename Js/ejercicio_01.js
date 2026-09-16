@@ -10,4 +10,4 @@ let porcentajemujeres= (mujeres / totalPersonas) * 100;
 //Fase de salida: se hacen impresines en consolas.
 console.log("total de colaboradores" , totalPersonas);
 console.log("porcentaje de varones:", porcentajevarones.toFixed(2), "%");
-console.log("porcentaje de mujeres:", porcentajemujeres.toFixed(2), "%");
+console.log("porcentaje de mujeres:", porcentajemujeres.toFixed(2), "%")
