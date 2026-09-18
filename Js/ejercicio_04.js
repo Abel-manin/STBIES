@@ -8,9 +8,9 @@ let salarioNeto = salarioBruto * impuesto;
 
 console.log("::::::BOLETA DE PAGO::::::");
 console.log("Nombre del empleado", empleado); 
-console.log("Horas trabajadas",horasTrabajadas);
-console.log("Tarifa por Horas S/",horasTrabajadas);
-console.log("Salario Bruto S/",salarioBruto);
-console.log("Impuesto S/",impuesto);
-console.log("Salario Neto S/",salarioNeto) ;
+console.log("Horas trabajadas", horasTrabajadas);
+console.log("Tarifa por Horas S/", horasTrabajadas);
+console.log("Salario Bruto S/", salarioBruto);
+console.log("Impuesto S/", impuesto);
+console.log("Salario Neto S/", salarioNeto) ;
 
