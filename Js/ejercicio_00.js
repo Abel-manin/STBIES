@@ -1,6 +1,6 @@
 //Declaracion de variabes y tipos de datos
 const nombreProducto = "laptop gamer";
-let precioOriginal= "4500.99"
+let precioOriginal= "4500.99";
 const Descuento = 15; 
 let stockDisponible =  "5";
 let enOferta = "true";
