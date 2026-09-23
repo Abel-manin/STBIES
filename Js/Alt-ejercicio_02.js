@@ -14,6 +14,5 @@ if (comp1 > comp2 && comp2 > comp3 && comp3 > comp4) {
     numMenor = comp4;
     console.log("El numero mayo es", numMayor, "y el menor termina siendo", numMenor);
 } else {
-   (comp1 < comp2 && comp2 < comp3 && num3 < comp4)
    console.log("Error.. Fallo en la operacion..");
 }

@@ -4,7 +4,6 @@ let numeroSoad = 19;
 let numeroSuma = numeroMcr + numeroSoad;
 let numeroMultiplicacion = numeroMcr * numeroSoad;
 
-
 console.log("::::Calculo  exagerado::::")
 console.log("Numero enteros")
 console.log("Son bastantes por no decir que son infinitos")
@@ -20,4 +19,4 @@ console.log("La suma de los números (", numeroMcr, numeroSoad ,")")
 console.log("El resultado llegaría a ser =", numeroSuma);
 console.log("Por otro lado");
 console.log("La multiplicaión de los números (", numeroMcr, numeroSoad, ")");
-console.log("El resultado llegaría a ser =", numeroMultiplicacion);
+console.log("El resultado llegaría a ser =", numeroMultiplicacion); 
