@@ -1,0 +1,93 @@
+/* VARIABLES CSS */
+/* SELECTOR PADRE */
+:root{
+    --colorPrimario: #7e7a7d;
+    --colorsecundario: #8a6674;
+    --colorterciario: #b4adb1;
+    --colortitulos: #5f5d5f;
+    --colorparrafos: #282D31;
+    --colorsombras: #cccacb;
+}
+/* CONECTOR UNIVERSAL */
+*{
+    padding: 0;
+    margin: flex;
+    box-sizing:border-box;
+}
+/*familia font*/
+.underdog-regular {
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::placeholder{
+    color: var(--colortitulos);
+    font-weight: 700px;
+    font-family: "Underdog", system-ui;
+}
+
+/*cuerpo*/
+body{
+    background-color: var(--colorterciario);
+    color: var(--colorparrafos);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: 2em;
+    background-color: var(--colorPrimario);
+    max-width: 50%;
+    box-shadow:  0 0 60px var(--colorparrafos);
+    border-radius: 10px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*imagen contacto*/
+.imgcontacto{
+    width: 35%;
+    height: 100%;
+    border: 0.5em solid var(--colorparrafos);
+}
+.col-xs-12.col-sm-12.col-md-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    border: 2em;
+}
+
+.imgcontacto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid var(--colorsecundario);
+}
+
+/*botones*/
+input{
+    width: 100%;
+    border: 2px solid var(--colorsecundario);
+    border-radius: 4px;
+    height: 2em;
+    border-color: var(--colorsecundario);
+    margin-bottom: 1em;
+}
+
+.boton{
+    background-color: var(--colorPrimario);
+    color: var(--colorparrafos);
+    font-weight: 700px;
+    transition: background-color .3s ease-in-out;
+    background-color: var(--colorsombras);
+    font-family: "Underdog", system-ui;
+}
+
+.boton:hover{
+    background-color: var(--colorsecundario);
+    color: var(--colorsombras);
+}
+
